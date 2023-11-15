@@ -1,0 +1,17 @@
+Package: hexamap
+Type: Package
+Title: Age, Period and Cohort (APC) Trend Visualization
+Version: 0.0.1
+Authors@R: person("Hawre", "Jalal", , "hawrejalal@gmail.com", 
+           role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-8224-6834"))
+Description: The package takes in a matrix that contains a value (e.g., mortality rate) 
+  arranged by age as rows and calendar year as columns and creates a visualization of 
+  the data as a hexamap. For more information on hexmaps, please refer to this paper
+  Jalal, Hawre, and Donald S. Burke. "Hexamaps for age-period-cohort data visualization 
+  and implementation in R." Epidemiology (Cambridge, Mass.) 31.6 (2020): e47.
+  https://journals.lww.com/epidem/Fulltext/2020/11000/Hexamaps_for_Age_Period_Cohort_Data_Visualization.20.aspx
+License: use_gpl3_license()
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
